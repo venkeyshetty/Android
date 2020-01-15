@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Automotive Craze</title>
+    <h1><b><center><u>Automotive Craze</u></center></b></h1>
+</head>
+<body>
+  <background-color:red>
+  <div>
+ <style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+</style>
+  </head>
+  <body>
+  
+  <h2>Audi</h2>
+  <div class="dropdown">
+    <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\audi.jpg" alt="Audi" width="200" height="150">
+    <div class="dropdown-content">
+    <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\audi.jpg" alt="Audi" width="300" height="200">
+    <div class="desc">AUDI</div>
+    </div>
+  </div>
+
+
+  <!-- 2nd img-->
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {    
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+    </head>
+    <body>
+    
+    <h2>Nissan</h2>
+    <div class="dropdown">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\nsi.jpg" alt="Nissan" width="200" height="150">
+      <div class="dropdown-content">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\nsi.jpg" alt="Nissan" width="300" height="200">
+      <div class="desc">Nissan GT</div>
+      </div>
+    </div>
+
+    <!--3rd image-->
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {    
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+      </head>
+      <body>
+      
+      <h2>Ferrari</h2>
+      <div class="dropdown">
+        <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\ferr.jpg" alt="Ferrari" width="200" height="150">
+        <div class="dropdown-content">
+        <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\ferr.jpg" alt="Ferrari" width="300" height="200">
+        <div class="desc">Pista 455</div>
+        </div>
+      </div>
+
+      
+<!--4th image-->
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+</style>
+  </head>
+  <body>
+  
+  <h2>Jaguar</h2>
+  <div class="dropdown">
+    <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\jgf.jpg" alt="Jaguar" width="200" height="150">
+    <div class="dropdown-content">
+    <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\jgf.jpg" alt="Jaguar" width="300" height="200">
+    <div class="desc">Jaguar xf</div>
+    </div>
+  </div>
+
+ 
+ <!-- The grid: four columns -->
+
+<div class="row">
+    <h1>Gallery</h1>
+    <div class="column">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\audi.jpg" width="500px" alt="audi" onclick="myFunction(this);">
+      <br>
+    </div>
+    <div class="column">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\nsi.jpg" width="500px" alt="nsi" onclick="myFunction(this);">
+      <br>
+    </div>
+    <div class="column">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\ferr.jpg" width="500px" alt="ferr" onclick="myFunction(this);">
+      <br>
+    </div>
+    <div class="column">
+      <img src="C:\Users\venke\Desktop\MicroDegree\sample\images\jgf.jpg" width="500px" alt="jgf" onclick="myFunction(this);">
+      <br>
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:150%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+</div>
+</body>
+</html>
